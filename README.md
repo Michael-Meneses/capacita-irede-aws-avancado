@@ -79,4 +79,10 @@ JSON
 3. Processamento da Lambda:
 (Print do CloudWatch logs mostrando a Lambda consumindo a mensagem do SQS)
 
+## 🧼 Limpeza de Recursos
+
+Para evitar custos desnecessários na conta AWS após a validação e avaliação do projeto, toda a infraestrutura pode ser completamente removida com um único comando:
+
+```bash
+terraform destroy -auto-approve
 
