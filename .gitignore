@@ -1,0 +1,23 @@
+# ==========================================
+# Terraform - Arquivos locais e confidenciais
+# ==========================================
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+
+# ==========================================
+# Python - Arquivos temporários e cache
+# ==========================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
